@@ -4,11 +4,11 @@ A modern web application that uses AI to analyze legal contracts and provide cle
 
 ## Features
 
-- 📄 **Multiple File Formats**: Support for PDF, DOC, DOCX, and TXT files
-- 🤖 **AI-Powered Analysis**: Uses Google's Gemini API for intelligent contract analysis
-- 🎯 **Key Insights**: Automatically identifies financial terms, obligations, risks, and deadlines
-- 🎨 **Beautiful UI**: Modern, responsive design with dark mode support
-- ⚡ **Fast Processing**: Get analysis results in seconds
+- **Multiple File Formats**: Support for PDF, DOC, DOCX, and TXT files
+- **AI-Powered Analysis**: Uses Google's Gemini API for intelligent contract analysis
+- **Key Insights**: Automatically identifies financial terms, obligations, risks, and deadlines
+- **Beautiful UI**: Modern, responsive design with dark mode support
+- **Fast Processing**: Get analysis results in seconds
 
 ## Getting Started
 
