@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Upload, Zap, Shield, Clock, Brain, ArrowRight, FileText, CheckCircle2 } from 'lucide-react';
+import { Upload, Zap, Shield, Clock, Brain, ArrowRight, FileText, CheckCircle2, Download } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -236,6 +236,38 @@ export default function Home() {
                 </Button>
               </div>
             )}
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-sm text-muted-foreground mb-4">
+              Don't have a contract? Try one of our examples:
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a
+                href="/examples/saas-service-agreement.txt"
+                download="SaaS-Service-Agreement.txt"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 text-foreground rounded-lg transition text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                SaaS Agreement
+              </a>
+              <a
+                href="/examples/employment-contract.txt"
+                download="Employment-Contract.txt"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 text-foreground rounded-lg transition text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                Employment Contract
+              </a>
+              <a
+                href="/examples/residential-lease-agreement.txt"
+                download="Residential-Lease-Agreement.txt"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 text-foreground rounded-lg transition text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                Lease Agreement
+              </a>
+            </div>
           </div>
 
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-muted-foreground">

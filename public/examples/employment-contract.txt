@@ -1,0 +1,158 @@
+EMPLOYMENT AGREEMENT
+
+This Employment Agreement ("Agreement") is made and entered into as of April 1, 2024, by and between Innovate Technologies LLC, a California limited liability company ("Company"), and Jordan Smith ("Employee").
+
+1. POSITION AND DUTIES
+
+1.1 Position: Employee is hired as Senior Software Engineer, reporting to the Director of Engineering.
+
+1.2 Duties: Employee shall perform software development, code reviews, technical documentation, mentoring junior developers, and other duties as reasonably assigned.
+
+1.3 Full-Time Employment: This is a full-time position requiring 40 hours per week. Employee agrees to devote their best efforts and full business time to Company duties.
+
+1.4 Location: Employee will work primarily at Company's San Francisco office, with hybrid remote work permitted up to 3 days per week, subject to manager approval.
+
+2. COMPENSATION AND BENEFITS
+
+2.1 Base Salary: Employee will receive an annual base salary of $165,000, paid in accordance with Company's standard payroll schedule (semi-monthly).
+
+2.2 Performance Bonus: Employee is eligible for an annual performance bonus of up to 15% of base salary ($24,750), based on individual and company performance metrics. Bonus is prorated for partial years and paid by March 31st following the performance year.
+
+2.3 Equity Compensation: Employee will receive a stock option grant for 10,000 shares at fair market value, vesting over 4 years with a 1-year cliff (25% vesting after year 1, then monthly thereafter). Options expire 90 days after termination.
+
+2.4 Sign-On Bonus: Employee will receive a $15,000 sign-on bonus, paid with first paycheck. If Employee voluntarily terminates within 12 months, Employee must repay the full amount.
+
+2.5 Benefits: Employee is eligible for Company's benefits package including:
+- Health, dental, and vision insurance (Company pays 80% of premiums)
+- 401(k) with 4% company match (fully vested immediately)
+- 20 days paid time off (PTO) per year, accruing monthly
+- 10 paid company holidays
+- 12 weeks paid parental leave
+- $1,500 annual professional development stipend
+- $500 annual wellness stipend
+
+2.6 Relocation Assistance: Company will provide $10,000 relocation assistance if Employee relocates more than 100 miles for this position. Must be repaid if Employee terminates within 18 months.
+
+3. EMPLOYMENT TERM AND TERMINATION
+
+3.1 Start Date: Employment begins on April 1, 2024.
+
+3.2 At-Will Employment: Employment is at-will and may be terminated by either party at any time, with or without cause or notice.
+
+3.3 Notice Period: Employee should provide at least 2 weeks written notice of resignation. Company will provide 2 weeks notice or pay in lieu of notice for termination without cause.
+
+3.4 Termination for Cause: Company may terminate immediately for cause, including: willful misconduct, breach of this Agreement, conviction of a felony, or gross negligence. No severance will be paid.
+
+3.5 Severance: If Company terminates without cause, Employee will receive:
+- 8 weeks base salary continuation
+- COBRA health insurance premiums paid for 8 weeks
+- Acceleration of 25% of unvested stock options
+- Extended option exercise period (180 days instead of 90 days)
+
+Severance is contingent on signing a release of claims and non-disparagement agreement.
+
+4. EMPLOYEE OBLIGATIONS AND CONDUCT
+
+4.1 Probationary Period: First 90 days constitute a probationary period during which employment may be terminated with 1 week notice and no severance.
+
+4.2 Background Check: Employment is contingent upon successful completion of background check, including criminal history and employment verification.
+
+4.3 Work Authorization: Employee must provide proof of eligibility to work in the United States within 3 days of start date.
+
+4.4 Policies and Procedures: Employee must comply with all Company policies in the Employee Handbook, including code of conduct, anti-harassment, and information security policies.
+
+4.5 Performance Reviews: Employee will receive performance reviews at 90 days, 6 months, and annually thereafter.
+
+5. CONFIDENTIALITY AND PROPRIETARY INFORMATION
+
+5.1 Confidential Information: Employee acknowledges they will have access to confidential and proprietary information including trade secrets, customer data, source code, business strategies, and financial information.
+
+5.2 Non-Disclosure: Employee agrees not to disclose any confidential information during employment or for 5 years after termination, except as required by law.
+
+5.3 Return of Property: Upon termination, Employee must immediately return all Company property, including laptop, phone, access badges, documents, and data.
+
+5.4 Survival: Confidentiality obligations survive termination indefinitely for trade secrets, and 5 years for other confidential information.
+
+6. INTELLECTUAL PROPERTY ASSIGNMENT
+
+6.1 Work Product: All inventions, discoveries, works of authorship, and intellectual property created during employment and related to Company's business belong exclusively to Company.
+
+6.2 Assignment: Employee hereby assigns to Company all rights to any work product created during employment, whether during business hours or not, if it relates to Company's actual or demonstrably anticipated business.
+
+6.3 Prior Inventions: Employee has disclosed all prior inventions on Exhibit A. Nothing in this Agreement requires assignment of inventions developed entirely on Employee's own time without Company equipment that do not relate to Company's business.
+
+6.4 Moral Rights Waiver: Employee waives all moral rights in any work product created for Company.
+
+6.5 Future Assistance: Employee agrees to assist Company in obtaining patents or copyrights, even after termination. Company will compensate Employee at $200/hour for post-termination assistance.
+
+7. NON-COMPETE AND NON-SOLICITATION
+
+7.1 Non-Compete: During employment and for 12 months after termination, Employee will not directly compete with Company by working for or starting a competing business within California, Washington, Oregon, or any state where Employee performed services for Company.
+
+7.2 Non-Solicitation of Customers: For 18 months after termination, Employee will not solicit or do business with any Company client with whom Employee had material contact during the last 24 months of employment.
+
+7.3 Non-Solicitation of Employees: For 18 months after termination, Employee will not recruit, solicit, or hire any Company employee or contractor.
+
+7.4 Reasonableness: Employee acknowledges these restrictions are reasonable and necessary to protect Company's legitimate business interests.
+
+7.5 Notice to Future Employers: Employee must provide a copy of this Agreement to any future employer during the restricted period.
+
+8. OUTSIDE ACTIVITIES
+
+8.1 Conflicts of Interest: Employee must disclose any outside employment, board positions, or significant financial interests that could conflict with Company duties.
+
+8.2 Prior Approval: Employee must obtain written approval before engaging in any outside business activities, consulting, or employment.
+
+8.3 No Company Resources: Employee may not use Company time, equipment, or resources for outside activities.
+
+9. IMPORTANT DATES AND DEADLINES
+
+- Employment Start Date: April 1, 2024
+- Probationary Period Ends: June 30, 2024
+- First Performance Review: July 1, 2024
+- Stock Option 1-Year Cliff: April 1, 2025
+- Sign-On Bonus Repayment Period: March 31, 2025 (must stay employed)
+- Relocation Assistance Repayment Period: October 1, 2025
+- Full Stock Option Vesting: April 1, 2028
+- Non-Compete Period: 12 months after termination
+- Non-Solicitation Period: 18 months after termination
+
+10. DISPUTE RESOLUTION
+
+10.1 Arbitration: Any disputes arising from this Agreement must be resolved through binding arbitration in San Francisco, California, under AAA Employment Arbitration Rules.
+
+10.2 Costs: Each party bears their own attorney fees. Arbitrator fees are split equally.
+
+10.3 Exceptions: Company may seek injunctive relief in court for breaches of confidentiality, intellectual property, or restrictive covenants.
+
+10.4 Class Action Waiver: Employee waives the right to participate in class or collective actions.
+
+11. GENERAL PROVISIONS
+
+11.1 Governing Law: This Agreement is governed by California law, excluding conflict of law provisions.
+
+11.2 Entire Agreement: This Agreement, along with the Employee Handbook and stock option agreement, constitutes the entire employment agreement.
+
+11.3 Amendments: Any amendments must be in writing and signed by both parties.
+
+11.4 Severability: If any provision is unenforceable, it will be modified to be enforceable, or severed if modification is impossible.
+
+11.5 No Third-Party Rights: This Agreement creates no rights for any third parties.
+
+11.6 Withholding: Company will withhold all required taxes and deductions from compensation.
+
+11.7 Notices: All notices must be in writing and delivered to the addresses on file.
+
+EMPLOYEE ACKNOWLEDGES:
+- I have read and understand this Agreement
+- I have had the opportunity to consult with legal counsel
+- I am not bound by any conflicting agreements with prior employers
+- I agree to all terms and conditions
+
+Employee Signature: _________________________ Date: ___________
+Jordan Smith
+
+Company Signature: _________________________ Date: ___________
+Sarah Chen, Chief People Officer
+Innovate Technologies LLC
+

@@ -1,0 +1,127 @@
+SOFTWARE AS A SERVICE AGREEMENT
+
+This Software as a Service Agreement ("Agreement") is entered into as of March 15, 2024, between CloudTech Solutions Inc., a Delaware corporation ("Provider"), and the subscribing customer ("Customer").
+
+1. SERVICE DESCRIPTION AND FEES
+
+1.1 Services: Provider agrees to provide Customer access to its cloud-based project management platform, including 100GB storage, unlimited users, and 24/7 technical support.
+
+1.2 Subscription Fees: 
+- Professional Plan: $149 per month
+- Annual prepayment discount: 20% ($1,430.40 per year)
+- Implementation fee: $500 (one-time, non-refundable)
+- Overage charges: $0.50 per GB over 100GB storage limit
+
+1.3 Payment Terms: All fees are due within 10 days of invoice date. Late payments will incur a 1.5% monthly interest charge.
+
+2. TERM AND TERMINATION
+
+2.1 Initial Term: This Agreement begins on March 15, 2024, and continues for an initial term of 24 months, ending March 14, 2026.
+
+2.2 Renewal: This Agreement automatically renews for successive 12-month periods unless either party provides written notice at least 60 days prior to the renewal date.
+
+2.3 Termination for Convenience: Customer may terminate this Agreement with 90 days written notice. Early termination will result in an early termination fee equal to 50% of the remaining contract value.
+
+2.4 Termination for Cause: Either party may terminate immediately upon written notice if the other party breaches any material term and fails to cure within 30 days.
+
+2.5 Data Retrieval: Upon termination, Customer has 30 days to retrieve all data. After 30 days, Provider may permanently delete all Customer data.
+
+3. CUSTOMER OBLIGATIONS AND RESPONSIBILITIES
+
+3.1 Customer must designate an administrative contact within 5 business days of execution.
+
+3.2 Customer must maintain current and accurate billing information at all times.
+
+3.3 Customer is responsible for all activity under its account and must immediately notify Provider of any unauthorized access.
+
+3.4 Customer must comply with Provider's Acceptable Use Policy, which prohibits illegal activities, spam, malware distribution, and excessive resource consumption.
+
+3.5 Customer must maintain minimum of 3 active users throughout the term.
+
+4. PROVIDER OBLIGATIONS AND SERVICE LEVELS
+
+4.1 Uptime Guarantee: Provider guarantees 99.5% uptime per calendar month, excluding scheduled maintenance.
+
+4.2 Scheduled Maintenance: Provider may perform maintenance with 72 hours notice, during 12 AM - 6 AM EST windows.
+
+4.3 Service Credits: If uptime falls below 99.5%, Customer receives service credits: 
+- 99.0% - 99.5%: 10% monthly fee credit
+- 98.0% - 99.0%: 25% monthly fee credit
+- Below 98.0%: 50% monthly fee credit
+
+4.4 Support Response Times:
+- Critical issues: 2 hours
+- High priority: 8 business hours
+- Medium priority: 24 business hours
+- Low priority: 48 business hours
+
+5. INTELLECTUAL PROPERTY AND DATA OWNERSHIP
+
+5.1 Provider Platform: All intellectual property rights in the Provider platform remain the exclusive property of Provider.
+
+5.2 Customer Data: Customer retains all rights to data uploaded to the platform. Provider claims no ownership rights to Customer data.
+
+5.3 Limited License: Provider grants Customer a limited, non-exclusive, non-transferable license to access and use the platform during the term.
+
+6. CONFIDENTIALITY
+
+6.1 Both parties agree to maintain confidentiality of proprietary information disclosed during this Agreement.
+
+6.2 Confidentiality obligations survive for 3 years following termination.
+
+6.3 Exceptions include information that is publicly available, independently developed, or required to be disclosed by law.
+
+7. LIABILITY AND INDEMNIFICATION
+
+7.1 Limitation of Liability: Provider's total liability under this Agreement is limited to the total fees paid by Customer in the 12 months preceding the claim.
+
+7.2 Consequential Damages: Neither party shall be liable for indirect, incidental, special, or consequential damages, including lost profits or data loss.
+
+7.3 Customer Indemnification: Customer agrees to indemnify Provider against any third-party claims arising from Customer's use of the services, violation of this Agreement, or infringement of third-party rights.
+
+7.4 Provider Indemnification: Provider agrees to indemnify Customer against claims that the platform infringes third-party intellectual property rights.
+
+8. PRICING ADJUSTMENTS
+
+8.1 Provider may increase fees upon renewal with at least 90 days written notice.
+
+8.2 Price increases are limited to 15% per year or CPI increase, whichever is greater.
+
+8.3 If Customer does not accept the price increase, Customer may terminate without penalty by providing notice before the renewal date.
+
+9. SECURITY AND COMPLIANCE
+
+9.1 Provider maintains SOC 2 Type II certification and complies with GDPR requirements.
+
+9.2 Provider implements industry-standard encryption for data at rest and in transit.
+
+9.3 Provider performs annual third-party security audits and vulnerability assessments.
+
+9.4 Provider will notify Customer of any data breach within 72 hours of discovery.
+
+10. IMPORTANT DATES AND DEADLINES
+
+- Contract Start Date: March 15, 2024
+- Initial Term End: March 14, 2026
+- First Renewal Date: March 15, 2026
+- Cancellation Notice Required: 60 days before renewal (by January 14, 2026)
+- Price Increase Notice: 90 days before renewal (by December 15, 2025)
+- Data Backup Deadline After Termination: 30 days
+- Billing Cycle: Monthly on the 15th of each month
+
+11. GENERAL PROVISIONS
+
+11.1 Governing Law: This Agreement is governed by the laws of Delaware, excluding conflict of law provisions.
+
+11.2 Entire Agreement: This Agreement constitutes the entire agreement and supersedes all prior agreements.
+
+11.3 Modifications: Any modifications must be in writing and signed by both parties.
+
+11.4 Assignment: Customer may not assign this Agreement without Provider's prior written consent. Provider may assign to any successor or affiliate with notice.
+
+11.5 Force Majeure: Neither party is liable for delays caused by circumstances beyond reasonable control.
+
+11.6 Severability: If any provision is found invalid, the remaining provisions continue in full force.
+
+By subscribing to the services, Customer acknowledges having read, understood, and agreed to be bound by this Agreement.
+

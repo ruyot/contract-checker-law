@@ -1,0 +1,24 @@
+SERVICE AGREEMENT
+
+This Service Agreement ("Agreement") is entered into as of January 1, 2024, between TechCorp Inc. ("Provider") and Client Company ("Client").
+
+1. SERVICES AND FEES
+The Provider agrees to provide software development services for a monthly fee of $5,000. Payment is due within 15 days of invoice date. A one-time setup fee of $2,000 applies.
+
+2. TERM AND TERMINATION
+This Agreement shall commence on January 1, 2024, and continue for a period of 12 months, ending December 31, 2024. Either party may terminate with 30 days written notice. Early termination by Client will result in a penalty equal to 2 months of service fees.
+
+3. CLIENT OBLIGATIONS
+Client must provide all necessary access credentials within 5 business days. Client must respond to Provider requests within 48 hours. Failure to meet these obligations may result in project delays.
+
+4. LIABILITY AND INDEMNIFICATION
+Provider's liability is limited to the total amount paid by Client in the 6 months preceding the claim. Client agrees to indemnify Provider against any third-party claims arising from Client's use of the services.
+
+5. INTELLECTUAL PROPERTY
+All work product created under this Agreement shall become the property of Client upon full payment. Provider retains the right to use general methodologies and techniques.
+
+6. CONFIDENTIALITY
+Both parties agree to maintain confidentiality of proprietary information for a period of 3 years after termination.
+
+7. RENEWAL
+This Agreement will automatically renew for successive 12-month terms unless either party provides written notice at least 60 days before the renewal date. Fees may increase by up to 10% upon renewal.

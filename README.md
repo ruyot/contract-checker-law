@@ -31,13 +31,13 @@ cd contract-checker
 pnpm install
 ```
 
-3. Set up your environment variables:
-   - Copy `.env.example` to `.env.local`
-   - Get your Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-   - Add your API key to `.env.local`:
-```bash
-GEMINI_API_KEY=your_api_key_here
-```
+3. Set up your Groq API key:
+   - Get your free API key from [Groq Console](https://console.groq.com/keys)
+   - Free tier: 14,400 requests/day (no credit card required!)
+   - Add to `.env.local`:
+   ```bash
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
 
 4. Run the development server:
 ```bash
@@ -61,7 +61,7 @@ pnpm dev
 
 - **Framework**: Next.js 16 with App Router
 - **UI**: React 19, Tailwind CSS, Radix UI
-- **AI**: Google Gemini API (gemini-2.0-flash-exp)
+- **AI**: Groq (Llama 3.3 70B Versatile)
 - **File Parsing**: pdf-parse, mammoth
 - **TypeScript**: Full type safety
 
@@ -117,7 +117,9 @@ pnpm lint
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `GEMINI_API_KEY` | Your Google Gemini API key | Yes |
+| `GROQ_API_KEY` | Your Groq API key from console.groq.com | Yes |
+
+**Free Tier:** 14,400 requests/day - Perfect for demos and testing!
 
 ## License
 

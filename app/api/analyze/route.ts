@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { parseFile } from '@/lib/fileParser';
-import { analyzeContract } from '@/lib/geminiAnalyzer';
+import { analyzeContract } from '@/lib/contractAnalyzer';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -36,11 +36,12 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get API key from environment
-    const apiKey = process.env.GEMINI_API_KEY;
+    // Get Groq API key from environment
+    const apiKey = process.env.GROQ_API_KEY;
+    
     if (!apiKey) {
       return NextResponse.json(
-        { error: 'API key not configured. Please set GEMINI_API_KEY in your environment variables.' },
+        { error: 'API key not configured. Please set GROQ_API_KEY in your .env.local file.' },
         { status: 500 }
       );
     }
@@ -58,8 +59,8 @@ export async function POST(request: NextRequest) {
 
     console.log(`Extracted ${contractText.length} characters from file`);
 
-    // Analyze with Gemini
-    console.log('Analyzing contract with Gemini...');
+    // Analyze with Groq
+    console.log('Analyzing contract with Groq...');
     const analysis = await analyzeContract(contractText, file.name, apiKey);
 
     return NextResponse.json(analysis);

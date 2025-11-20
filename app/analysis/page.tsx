@@ -67,6 +67,69 @@ export default function AnalysisPage() {
     return FileText;
   };
 
+  const handleExport = () => {
+    if (!analysis) return;
+
+    // Create text content
+    let content = `CONTRACT ANALYSIS REPORT\n`;
+    content += `${'='.repeat(50)}\n\n`;
+    content += `File: ${analysis.fileName}\n`;
+    content += `Analysis Time: ${analysis.analysisTime}\n\n`;
+    content += `EXECUTIVE SUMMARY\n`;
+    content += `${'-'.repeat(50)}\n`;
+    content += `${analysis.summary}\n\n`;
+    
+    analysis.keyPoints.forEach((section) => {
+      content += `\n${section.category.toUpperCase()}\n`;
+      content += `${'-'.repeat(50)}\n`;
+      section.items.forEach((item) => {
+        content += `• ${item}\n`;
+      });
+    });
+
+    // Create blob and download
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${analysis.fileName.replace(/\.[^/.]+$/, '')}_analysis.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  const handleShare = () => {
+    if (!analysis) return;
+
+    // Create shareable text
+    let shareText = `Contract Analysis: ${analysis.fileName}\n\n`;
+    shareText += `Summary: ${analysis.summary}\n\n`;
+    shareText += `Key Points:\n`;
+    
+    analysis.keyPoints.forEach((section) => {
+      shareText += `\n${section.category}:\n`;
+      section.items.forEach((item) => {
+        shareText += `• ${item}\n`;
+      });
+    });
+
+    // Use Web Share API if available, otherwise copy to clipboard
+    if (navigator.share) {
+      navigator.share({
+        title: `Contract Analysis: ${analysis.fileName}`,
+        text: shareText,
+      }).catch((error) => console.log('Error sharing:', error));
+    } else {
+      // Fallback: copy to clipboard
+      navigator.clipboard.writeText(shareText).then(() => {
+        alert('Analysis copied to clipboard!');
+      }).catch((error) => {
+        console.error('Error copying to clipboard:', error);
+      });
+    }
+  };
+
   if (isLoading) {
     return (
       <main className="w-full min-h-screen bg-background flex items-center justify-center">
@@ -107,11 +170,11 @@ export default function AnalysisPage() {
             </div>
           </div>
           <div className="flex gap-2">
-            <Button variant="outline" size="sm">
+            <Button variant="outline" size="sm" onClick={handleShare}>
               <Share2 className="w-4 h-4 mr-2" />
               Share
             </Button>
-            <Button variant="outline" size="sm">
+            <Button variant="outline" size="sm" onClick={handleExport}>
               <Download className="w-4 h-4 mr-2" />
               Export
             </Button>
@@ -162,22 +225,6 @@ export default function AnalysisPage() {
               </Card>
             );
           })}
-        </div>
-
-        {/* Action Section */}
-        <div className="mt-12 p-8 bg-secondary/30 rounded-xl border border-border">
-          <h3 className="text-xl font-semibold text-foreground mb-4">Next Steps</h3>
-          <div className="grid md:grid-cols-3 gap-4">
-            <Button className="w-full" size="lg">
-              Accept & Sign
-            </Button>
-            <Button variant="outline" className="w-full" size="lg">
-              Request Changes
-            </Button>
-            <Button variant="outline" className="w-full" size="lg">
-              Save for Later
-            </Button>
-          </div>
         </div>
       </div>
     </main>

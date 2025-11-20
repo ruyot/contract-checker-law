@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 
 export interface ContractAnalysis {
   fileName: string;
@@ -19,11 +19,10 @@ export async function analyzeContract(
   const startTime = Date.now();
 
   if (!apiKey) {
-    throw new Error('Gemini API key is not configured');
+    throw new Error('Groq API key is not configured');
   }
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+  const groq = new Groq({ apiKey });
 
   const prompt = `You are a legal contract analyzer. Analyze the following contract and provide a comprehensive breakdown in JSON format.
 
@@ -68,12 +67,22 @@ Guidelines:
 Return ONLY valid JSON, no additional text or formatting.`;
 
   try {
-    const result = await model.generateContent(prompt);
-    const response = result.response;
-    const text = response.text();
+    const completion = await groq.chat.completions.create({
+      messages: [
+        {
+          role: 'user',
+          content: prompt,
+        },
+      ],
+      model: 'llama-3.3-70b-versatile', // Fast and accurate, great free tier limits
+      temperature: 0.3,
+      max_tokens: 2000,
+    });
 
+    const responseText = completion.choices[0]?.message?.content || '';
+    
     // Clean up the response to extract JSON
-    let jsonText = text.trim();
+    let jsonText = responseText.trim();
     
     // Remove markdown code blocks if present
     jsonText = jsonText.replace(/```json\n?/g, '').replace(/```\n?/g, '');
@@ -91,8 +100,7 @@ Return ONLY valid JSON, no additional text or formatting.`;
       keyPoints: analysis.keyPoints,
     };
   } catch (error) {
-    console.error('Error analyzing contract with Gemini:', error);
+    console.error('Error analyzing contract with Groq:', error);
     throw new Error(`Failed to analyze contract: ${error instanceof Error ? error.message : 'Unknown error'}`);
   }
 }
-

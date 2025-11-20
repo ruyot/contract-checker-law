@@ -1,5 +1,11 @@
-import pdfParse from 'pdf-parse';
 import mammoth from 'mammoth';
+
+// Use dynamic import for pdf-parse since it's a CommonJS module
+async function parsePdf(buffer: Buffer): Promise<string> {
+  const pdfParse = await import('pdf-parse');
+  const data = await (pdfParse as any)(buffer);
+  return data.text;
+}
 
 export async function parseFile(file: File): Promise<string> {
   const buffer = Buffer.from(await file.arrayBuffer());
@@ -8,8 +14,7 @@ export async function parseFile(file: File): Promise<string> {
   try {
     switch (fileExtension) {
       case 'pdf':
-        const pdfData = await pdfParse(buffer);
-        return pdfData.text;
+        return await parsePdf(buffer);
 
       case 'docx':
         const docxResult = await mammoth.extractRawText({ buffer });
