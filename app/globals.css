@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated theme for Contractual - modern tech with blue primary */
+  /* Updated theme for Contracto - modern tech with blue primary */
   --background: hsl(0 0% 100%);
   --foreground: hsl(25 20% 15%);
   --card: hsl(0 0% 100%);

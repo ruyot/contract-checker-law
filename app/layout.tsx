@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Contractual - Instant Contract Intelligence',
+  title: 'Contracto - Instant Contract Intelligence',
   description: 'Upload any contract and instantly get the key points that matter to you. No more reading through endless paragraphs.',
   generator: 'v0.app',
   icons: {

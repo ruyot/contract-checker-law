@@ -129,7 +129,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <span className="text-xl font-bold text-foreground">Contractual</span>
+            <span className="text-xl font-bold text-foreground">Contracto</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition">Features</a>
@@ -291,7 +291,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 text-balance">
-              What Contractual Does
+              What Contracto Does
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Get intelligent summaries that highlight the critical points you need to know
@@ -471,7 +471,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span className="font-bold text-foreground">Contractual</span>
+                <span className="font-bold text-foreground">Contracto</span>
               </div>
               <p className="text-sm text-muted-foreground">Making contracts understandable for everyone.</p>
             </div>
@@ -501,7 +501,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground">
-            <p>&copy; 2025 Contractual. All rights reserved.</p>
+            <p>&copy; 2025 Contracto. All rights reserved.</p>
             <div className="flex gap-4 mt-4 sm:mt-0">
               <a href="#" className="hover:text-foreground transition">LinkedIn</a>
               <a href="#" className="hover:text-foreground transition">GitHub</a>
